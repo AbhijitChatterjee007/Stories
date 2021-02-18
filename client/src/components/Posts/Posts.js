@@ -8,7 +8,6 @@ import useStyles from './styles';
 const Posts = ({ setCurrentId }) => {
   const posts = useSelector((state) => state.posts);
   const classes = useStyles();
-  console.log(posts)
   const sortedPosts= posts.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
 
   return (

@@ -208,7 +208,7 @@ window.env = {
   "npm_package_scripts_test": "react-dotenv && react-scripts test",
   "npm_package_version": "0.1.0",
   "NUMBER_OF_PROCESSORS": "8",
-  "OLDPWD": "C:/Users/Me/Documents/react/Stories/server",
+  "OLDPWD": "C:/Users/Me/Documents/react/Stories",
   "OneDrive": "C:\\Users\\Me\\OneDrive",
   "ORIGINAL_PATH": "C:\\Program Files\\Git\\mingw64\\bin;C:\\Program Files\\Git\\usr\\bin;C:\\Users\\Me\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0;C:\\Windows\\System32\\OpenSSH;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\nodejs;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Calibre2;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin;C:\\Users\\Me\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Me\\AppData\\Local\\atom\\bin;C:\\Users\\Me\\AppData\\Roaming\\npm;C:\\Program Files\\heroku\\bin;C:\\Program Files\\MongoDB\\Server\\4.4\\bin;C:\\Users\\Me\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Me\\AppData\\Local\\GitHubDesktop\\bin;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2020.3\\bin",
   "ORIGINAL_TEMP": "C:/Users/Me/AppData/Local/Temp",
