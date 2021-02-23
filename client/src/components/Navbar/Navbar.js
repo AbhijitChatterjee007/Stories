@@ -3,8 +3,6 @@ import { AppBar, Typography, Toolbar, Avatar, Button } from '@material-ui/core';
 import { Link, useHistory, useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import decode from 'jwt-decode';
-
-import social from '../../images/social.png';
 import * as actionType from '../../constants/actionTypes';
 import useStyles from './styles';
 
@@ -38,7 +36,7 @@ const Navbar = () => {
   return (
     <AppBar className={classes.appBar} position="static" color="inherit" item xs={12} sm={12} md={6} lg ={4}>
       <div className={classes.brandContainer}>
-        <Typography component={Link} to="/" className={classes.heading} variant="h2" align="center"><img className={classes.image} src={social} alt="icon" height="60" width= "100"/></Typography>
+        <Typography component={Link} to="/" className={classes.heading} variant="h6" align="start">STORIES</Typography>
       </div>
       <Toolbar className={classes.toolbar}>
         {user?.result ? (

@@ -7,9 +7,10 @@ export default makeStyles((theme) => ({
     margin: '30px 0',
     display: 'flex',
     flexDirection: 'row',
-    justifyContent: 'space-between',
     alignItems: 'center',
     padding: '10px 50px',
+    justifyContent: 'space-evenly',
+
   },
   heading: {
     color: 'rgba(59,89,142, 1)',
@@ -20,12 +21,10 @@ export default makeStyles((theme) => ({
   },
   toolbar: {
     display: 'flex',
-    justifyContent: 'flex-end',
     width: '20px',
   },
   profile: {
     display: 'flex',
-    justifyContent: 'space-between',
   },
   userName: {
     display: 'flex',
@@ -34,7 +33,7 @@ export default makeStyles((theme) => ({
   brandContainer: {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'flex-start',
+    width: '20px',
   },
   purple: {
     color: theme.palette.getContrastText(deepPurple[500]),
