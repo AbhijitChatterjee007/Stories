@@ -21,12 +21,11 @@ export default makeStyles((theme) => ({
   toolbar: {
     display: 'flex',
     justifyContent: 'flex-end',
-    width: '400px',
+    width: '20px',
   },
   profile: {
     display: 'flex',
     justifyContent: 'space-between',
-    width: '400px',
   },
   userName: {
     display: 'flex',
@@ -35,6 +34,7 @@ export default makeStyles((theme) => ({
   brandContainer: {
     display: 'flex',
     alignItems: 'center',
+    justifyContent: 'flex-start',
   },
   purple: {
     color: theme.palette.getContrastText(deepPurple[500]),
