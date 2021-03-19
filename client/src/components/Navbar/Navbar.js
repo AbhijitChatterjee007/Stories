@@ -36,12 +36,12 @@ const Navbar = () => {
   return (
     <AppBar className={classes.appBar} position="static" color="inherit" item xs={12} sm={12} md={6} lg ={4}>
       <div className={classes.brandContainer}>
+      {user?.result && <Avatar className={classes.purple} alt={user?.result.name} src={user?.result.imageUrl}>{user?.result.name.charAt(0)}</Avatar>}
         <Typography component={Link} to="/" className={classes.heading} variant="h6" align="start">STORIES</Typography>
       </div>
       <Toolbar className={classes.toolbar}>
         {user?.result ? (
           <div className={classes.profile}>
-            <Avatar className={classes.purple} alt={user?.result.name} src={user?.result.imageUrl}>{user?.result.name.charAt(0)}</Avatar>
             <Button variant="contained" className={classes.logout} color="secondary" onClick={logout}>Logout</Button>
           </div>
         ) : (

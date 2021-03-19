@@ -1,20 +1,21 @@
 import { makeStyles } from '@material-ui/core/styles';
 import { deepPurple } from '@material-ui/core/colors';
 
+
 export default makeStyles((theme) => ({
   appBar: {
     borderRadius: 15,
     margin: '30px 0',
     display: 'flex',
     flexDirection: 'row',
-    alignItems: 'center',
-    padding: '10px 50px',
-    justifyContent: 'space-evenly',
+    padding: '10px 65px',
+    justifyContent: 'space-between',
 
   },
   heading: {
     color: 'rgba(59,89,142, 1)',
     textDecoration: 'none',
+    paddingLeft:'10px'
   },
   image: {
     margin: '15px',
