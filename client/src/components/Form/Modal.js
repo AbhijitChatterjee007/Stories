@@ -63,7 +63,7 @@ export const Modal = ({ showModal, setShowModal, currentId, setCurrentId }) => {
                 <ModalWrapper showModal={showModal}>
                   <Paper className={classes.paper} elevation={0}>
                     <ModalContent>
-                      <Form currentId={currentId} setCurrentId={setCurrentId} />
+                      <Form currentId={currentId} setCurrentId={setCurrentId} setShowModal={setShowModal} />
                     </ModalContent>
                   </Paper>
 

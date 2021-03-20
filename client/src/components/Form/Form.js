@@ -6,7 +6,7 @@ import FileBase from "react-file-base64";
 import { createPost, updatePost } from "../../actions/posts";
 import useStyles from "./styles";
 
-const Form = ({ currentId, setCurrentId }) => {
+const Form = ({ currentId, setCurrentId,setShowModal }) => {
   const [postData, setPostData] = useState({
     title: "",
     message: "",
@@ -46,6 +46,9 @@ const Form = ({ currentId, setCurrentId }) => {
       );
       clear();
     }
+    setShowModal(false);
+
+
   };
 
   return (
